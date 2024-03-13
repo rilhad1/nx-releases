@@ -1,4 +1,7 @@
 {
+  "release": {
+    "projects": ["first-library", "second-proj"]
+  },
   "targetDefaults": {
     "build": {
       "cache": true,
@@ -48,5 +51,12 @@
       "unitTestRunner": "vitest",
       "e2eTestRunner": "none"
     }
-  }
+  },
+  "cli": {},
+  "npmScope": "",
+  "workspaceLayout": {},
+  "defaultProject": "",
+  "affected": {},
+  "implicitDependencies": {},
+  "targetDependencies": {}
 }
