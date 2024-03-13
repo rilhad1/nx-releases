@@ -1,0 +1,19 @@
+{
+  "name": "second-library",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/second-library/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/vite:build",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/second-library",
+        "main": "libs/second-library/src/index.ts",
+        "tsConfig": "libs/second-library/tsconfig.lib.json",
+        "assets": ["libs/second-library/*.md"]
+      }
+    }
+  },
+  "tags": []
+}

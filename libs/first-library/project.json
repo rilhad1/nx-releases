@@ -1,0 +1,19 @@
+{
+  "name": "first-library",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/first-library/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/vite:build",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/first-library",
+        "main": "libs/first-library/src/index.ts",
+        "tsConfig": "libs/first-library/tsconfig.lib.json",
+        "assets": ["libs/first-library/*.md"]
+      }
+    }
+  },
+  "tags": []
+}
