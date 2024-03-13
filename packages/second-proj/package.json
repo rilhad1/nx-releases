@@ -3,5 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "test": "node index.js"
+  },
+  "dependencies": {
+    "second-library": "0.0.1"
   }
 }
