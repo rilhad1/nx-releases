@@ -3,6 +3,11 @@
     "projects": ["first-library", "first-proj", "second-proj"],
     "version": {
       "conventionalCommits": true
+    },
+    "changelog": {
+      "workspaceChangelog": {
+        "createRelease": "github"
+      }
     }
   },
   "targetDefaults": {
