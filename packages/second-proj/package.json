@@ -1,10 +1,11 @@
 {
   "name": "second-proj",
-  "version": "0.2.6",
+  "version": "0.2.12",
   "scripts": {
     "test": "node index.js"
   },
   "dependencies": {
+    "first-library": "0.2.12",
     "second-library": "0.0.1"
   }
 }

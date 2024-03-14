@@ -1,6 +1,6 @@
 {
   "name": "first-library",
-  "version": "0.2.8",
+  "version": "0.2.12",
   "dependencies": {},
   "main": "./index.js",
   "module": "./index.mjs",
