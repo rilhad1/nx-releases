@@ -5,3 +5,4 @@ console.log('second project feature_V3');
 console.log('second project feature_V4');
 console.log('second project feature_V5');
 console.log('second project feature_V6');
+console.log('second project feature_V7');
