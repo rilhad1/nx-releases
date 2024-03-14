@@ -1,6 +1,6 @@
 {
   "name": "second-proj",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "scripts": {
     "test": "node index.js"
   },
