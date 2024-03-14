@@ -1,10 +1,10 @@
 {
   "name": "first-proj",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "scripts": {
     "test": "node index.js"
   },
   "dependencies": {
-    "first-library": "0.2.0"
+    "first-library": "0.2.1"
   }
 }
