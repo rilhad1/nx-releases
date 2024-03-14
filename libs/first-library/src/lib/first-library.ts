@@ -1,3 +1,3 @@
 export function firstLibrary(): string {
-  return 'first-library';
+  return 'first-library_v2';
 }

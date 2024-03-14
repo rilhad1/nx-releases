@@ -1,11 +1,15 @@
 {
   "release": {
-    "projects": ["first-library", "second-proj"]
+    "projects": ["first-library", "first-proj", "second-proj"],
+    "version": {
+      "conventionalCommits": true
+    }
   },
   "targetDefaults": {
     "build": {
       "cache": true,
-      "dependsOn": ["^build"]
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
     },
     "lint": {
       "cache": true
@@ -52,11 +56,13 @@
       "e2eTestRunner": "none"
     }
   },
-  "cli": {},
-  "npmScope": "",
   "workspaceLayout": {},
   "defaultProject": "",
   "affected": {},
-  "implicitDependencies": {},
-  "targetDependencies": {}
+  "targetDependencies": {},
+  "namedInputs": {
+    "default": ["{projectRoot}/**/*", "sharedGlobals"],
+    "sharedGlobals": [],
+    "production": ["default"]
+  }
 }

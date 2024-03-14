@@ -1,3 +1,3 @@
 export function secondLibrary(): string {
-  return 'second-library';
+  return 'second-library_v2';
 }
