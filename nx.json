@@ -1,6 +1,6 @@
 {
   "release": {
-    "projects": ["first-library", "first-proj", "second-proj"],
+    "projects": ["first-proj"],
     "version": {
       "conventionalCommits": true
     },
